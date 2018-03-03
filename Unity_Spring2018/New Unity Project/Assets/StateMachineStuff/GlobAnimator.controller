@@ -39,6 +39,43 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &114357470871428398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047dacc0fae270c408c8dd5f89d77a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IdleEvent: {fileID: 11400000, guid: 5e7dc955f2327854b9c8d8f5e4346b89, type: 2}
+--- !u!114 &114471167624835594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5154aec88fee5c8428f209308be1712d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpEvent: {fileID: 11400000, guid: 802af2b2a569e824ba3262e179b8d7d5, type: 2}
+--- !u!114 &114485812605605062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e70fd5591167f48b1c7bb76af653d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WalkEvent: {fileID: 11400000, guid: 40a1375de8d80f443add1a4169402718, type: 2}
+  IdleEvent: {fileID: 0}
 --- !u!1101 &1101015157034637560
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -192,7 +229,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101816719803316652}
   - {fileID: 1101761781212778774}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114357470871428398}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -219,7 +257,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101252415607457860}
   - {fileID: 1101826507261785860}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114485812605605062}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -241,12 +280,13 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Jump
-  m_Speed: 1
+  m_Speed: 0.05
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101015157034637560}
   - {fileID: 1101801011742732148}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114471167624835594}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1

@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2249911f7e7e95b45b34d8ca4a53ba5d, type: 3}
   m_Name: BlueGoblin
   m_EditorClassIdentifier: 
-  skinColor: {r: 0, g: 0, b: 0, a: 0}
+  skinColor: {r: 0.15512185, g: 0, b: 0.97794116, a: 0}
   speed: 1

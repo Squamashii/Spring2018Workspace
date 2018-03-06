@@ -248,6 +248,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!1001 &371401914
 Prefab:
   m_ObjectHideFlags: 0
@@ -460,6 +461,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!1 &689660503
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +528,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!114 &689660506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,6 +908,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!114 &1045189730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,6 +937,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!114 &1045189731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -961,6 +966,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!1 &1274458567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1203,29 @@ RectTransform:
   m_AnchoredPosition: {x: -399, y: 231}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1717089656 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: d2461c46536f9cb48a0d914107df5176, type: 3}
+  m_PrefabInternal: {fileID: 371401914}
+--- !u!137 &1717089658 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 13700000, guid: d2461c46536f9cb48a0d914107df5176,
+    type: 3}
+  m_PrefabInternal: {fileID: 371401914}
+--- !u!114 &1717089659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717089656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfae829e2df8b8479b18042a571b615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 1717089658}
+  GoblinSO: {fileID: 11400000, guid: 63924fdecca369a44b5bae376e07874f, type: 2}
+  speed: 0
 --- !u!1 &1855290212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1611,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1
 --- !u!114 &2127077338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1609,3 +1639,4 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 1

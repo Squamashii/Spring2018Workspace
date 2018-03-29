@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaunchPlayer : MonoBehaviour {
+public class LaunchRigidBody : MonoBehaviour {
 
 //Attach this script to the object with a local Z axis pointing the direction you want to launch a player on contact
 	public float thrust;

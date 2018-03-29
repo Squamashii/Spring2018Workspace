@@ -6,11 +6,10 @@ public class LaunchPlayer : MonoBehaviour {
 
 //Attach this script to the object with a local Z axis pointing the direction you want to launch a player on contact
 	public float thrust;
-  public Rigidbody rigidBody;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-    rigidBody.AddForce(transform.forward*thrust*thrust);
+    other.GetComponent<Rigidbody>().AddForce(transform.forward*thrust);
     }
 
 }
